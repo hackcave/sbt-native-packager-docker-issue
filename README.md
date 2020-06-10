@@ -5,8 +5,8 @@ Original bug report at [https://github.com/sbt/sbt-native-packager/issues/1304](
 To reproduce the bug:
 
 ```bash
-git clone https://github.com/hackcave/sbt-native-packager-docker-issue.git
-cd sbt-native-packager-docker-issue && sbt docker:publishLocal
+git clone https://github.com/hackcave/sbt-native-packager-docker-issue-1304.git
+cd sbt-native-packager-docker-issue-1304 && sbt docker:publishLocal
 ```
 
 It fails with this error:
